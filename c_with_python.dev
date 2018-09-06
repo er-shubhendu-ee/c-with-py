@@ -11,15 +11,15 @@ ResourceIncludes=
 MakeIncludes=
 Compiler=
 CppCompiler=
-Linker=-lpython37 -lm_@@_
+Linker=-lpython37 -lpython3  -lm_@@_
 IsCpp=0
 Icon=
 ExeOutput=
 ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
-OverrideOutput=0
-OverrideOutputName=c_with_python.exe
+OverrideOutput=1
+OverrideOutputName=c_with_py.exe
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=c_with_python.c
+FileName=c_with_py.c
 CompileCpp=0
 Folder=
 Compile=1
