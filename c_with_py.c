@@ -21,6 +21,7 @@ int exe_py_module(int, char **);
 
 
 int main(int argc, char *argv[])
+<<<<<<< HEAD
 {
 //	get_py_info();
 	printf("test point 1 in c\n");
@@ -74,6 +75,11 @@ int exe_py_module(int argc, char **argv)
     Py_Finalize();
 
     return 0;
+=======
+{
+	exe_pycode("print(1+1)");
+	return 0;
+>>>>>>> parent of 747536b... Merge pull request #1 from er-shubhendu-ee/office
 }
 
 int get_py_info(void)

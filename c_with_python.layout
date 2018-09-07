@@ -1,8 +1,14 @@
 [Editors]
 Order=0
-Focused=0
+Focused=-1
 [Editor_0]
+<<<<<<< HEAD
 CursorCol=1
 CursorRow=57
 TopLine=48
+=======
+CursorCol=14
+CursorRow=26
+TopLine=1
+>>>>>>> parent of 747536b... Merge pull request #1 from er-shubhendu-ee/office
 LeftChar=1
