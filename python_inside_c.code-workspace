@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".",
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cli.h": "c",
+			"datatype.h": "c",
+			"stdlib_redef.h": "c",
+			"python.h": "c"
+		}
+	}
+}
